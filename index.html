@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blueprint & Infografis Karir IT Business Analyst & BI Specialist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            900: '#0c4a6e',
+                        },
+                        accent: {
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .light .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.6);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen transition-colors duration-300 light:bg-slate-50 light:text-slate-800 custom-scrollbar">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-slate-800/80 px-4 lg:px-8 py-3.5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-sky-500/20 text-white font-bold text-xl">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-lg md:text-xl tracking-tight leading-none text-white dark:text-white light:text-slate-900">
+                        BI & BA <span class="gradient-text">Career Blueprint</span>
+                    </h1>
+                    <p class="text-xs text-slate-400 mt-0.5">Saylor University • Linux Mint • BABOK v3 (2026-2032)</p>
+                </div>
+            </div>
+
+            <!-- Header Quick Actions -->
+            <div class="flex items-center space-x-3">
+                <button onclick="toggleTheme()" class="p-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all border border-slate-700" title="Toggle Theme">
+                    <i id="theme-icon" class="fa-solid fa-sun text-amber-400"></i>
+                </button>
+                <a href="#projects" class="hidden sm:flex items-center space-x-2 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-semibold text-xs transition-all shadow-md shadow-sky-500/25">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <span>10 Proyek Portofolio</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 lg:px-8 py-8 space-y-12">
+
+        <!-- Hero Infographic Banner -->
+        <section class="relative rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 p-6 md:p-10 border border-slate-800 overflow-hidden shadow-2xl">
+            <div class="absolute -right-20 -bottom-20 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute right-1/3 -top-20 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-5">
+                    <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>Panduan Akselerasi & Implementasi Praktis</span>
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-black tracking-tight leading-tight text-white">
+                        Kuasai Dual Domain <br>
+                        <span class="gradient-text">Business Analysis & Intelligence</span>
+                    </h2>
+                    <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+                        Peta jalan komprehensif mengintegrasikan mata kuliah akademis Saylor University, praktik Linux Mint XFCE, metodologi 80/20, standar BABOK v3, dan optimasi karir global 2026–2032.
+                    </p>
+
+                    <!-- Quick Navigation Tags -->
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <a href="#curriculum" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition"><i class="fa-solid fa-book-open text-sky-400 mr-1.5"></i>Kurikulum Saylor</a>
+                        <a href="#timeline" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition"><i class="fa-solid fa-clock text-indigo-400 mr-1.5"></i>Timeline & Estimasi</a>
+                        <a href="#environment" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition"><i class="fa-brands fa-linux text-emerald-400 mr-1.5"></i>Linux Mint Setup</a>
+                        <a href="#linkedin" class="px-3 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-xs text-slate-300 border border-slate-700 transition"><i class="fa-brands fa-linkedin text-blue-400 mr-1.5"></i>LinkedIn Harvard/MIT</a>
+                    </div>
+                </div>
+
+                <!-- Infographic Stat Cards Grid -->
+                <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+                    <div class="glass-panel p-4 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-sky-500/40 transition">
+                        <div class="text-sky-400 text-2xl mb-2"><i class="fa-solid fa-hourglass-half"></i></div>
+                        <div>
+                            <div class="text-2xl md:text-3xl font-bold text-white">260–300</div>
+                            <div class="text-xs text-slate-400 font-medium mt-1">Total Jam Belajar Saylor</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel p-4 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-indigo-500/40 transition">
+                        <div class="text-indigo-400 text-2xl mb-2"><i class="fa-solid fa-calendar-check"></i></div>
+                        <div>
+                            <div class="text-2xl md:text-3xl font-bold text-white">2.5–5 Mo</div>
+                            <div class="text-xs text-slate-400 font-medium mt-1">Durasi Kelulusan Fast-Track</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel p-4 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-emerald-500/40 transition">
+                        <div class="text-emerald-400 text-2xl mb-2"><i class="fa-solid fa-cubes-stacked"></i></div>
+                        <div>
+                            <div class="text-2xl md:text-3xl font-bold text-white">10 Proyek</div>
+                            <div class="text-xs text-slate-400 font-medium mt-1">Portofolio Hybrid BA+BI</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel p-4 rounded-2xl border border-slate-800 flex flex-col justify-between hover:border-purple-500/40 transition">
+                        <div class="text-purple-400 text-2xl mb-2"><i class="fa-solid fa-award"></i></div>
+                        <div>
+                            <div class="text-2xl md:text-3xl font-bold text-white">6 Sertifikasi</div>
+                            <div class="text-xs text-slate-400 font-medium mt-1">Standar Rekomendasi 2026</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 1 & 2: Saylor Curriculum Track -->
+        <section id="curriculum" class="space-y-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                <div>
+                    <span class="text-xs font-bold text-sky-400 uppercase tracking-widest">Bagian 1 & 2</span>
+                    <h3 class="text-2xl md:text-3xl font-extrabold text-white">Kurikulum Saylor University</h3>
+                    <p class="text-slate-400 text-sm">Pemetaan mata kuliah terbuka untuk IT Business Analyst dan BI Specialist</p>
+                </div>
+                <!-- Track Filter Switcher -->
+                <div class="flex bg-slate-900 p-1 rounded-xl border border-slate-800 self-start md:self-auto">
+                    <button onclick="switchTrack('all')" id="btn-track-all" class="px-4 py-1.5 rounded-lg text-xs font-semibold bg-sky-500 text-white transition">Semua Course</button>
+                    <button onclick="switchTrack('ba')" id="btn-track-ba" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition">Track IT BA</button>
+                    <button onclick="switchTrack('bi')" id="btn-track-bi" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition">Track BI Specialist</button>
+                </div>
+            </div>
+
+            <!-- Courses Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="courses-grid">
+                <!-- BUS206 -->
+                <div class="course-card ba glass-panel p-5 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">BUS206</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~40 Jam (4.0 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-sky-400 transition mb-2">Management Information Systems</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Pemahaman arsitektur sistem informasi enterprise, integrasi proses bisnis dengan teknologi, dan tata kelola aset data.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: IT BA</span>
+                        <span class="text-sky-400 font-medium"><i class="fa-solid fa-diagram-project mr-1"></i>BPMN & Enterprise Systems</span>
+                    </div>
+                </div>
+
+                <!-- BUS303 -->
+                <div class="course-card ba glass-panel p-5 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">BUS303</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~35 Jam (3.0 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-sky-400 transition mb-2">Strategic Information Technology</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Penyelarasan strategi IT dengan tujuan bisnis, tata kelola teknologi enterprise, dan evaluasi kelayakan investasi IT.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: IT BA</span>
+                        <span class="text-sky-400 font-medium"><i class="fa-solid fa-chart-pie mr-1"></i>Strategy Analysis</span>
+                    </div>
+                </div>
+
+                <!-- CS302 -->
+                <div class="course-card ba glass-panel p-5 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">CS302</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~41 Jam (4.1 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-sky-400 transition mb-2">Software Engineering</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Siklus hidup SDLC, metodologi Agile/Scrum, pemodelan UML, penulisan User Stories & Requirements Engineering.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: IT BA</span>
+                        <span class="text-sky-400 font-medium"><i class="fa-solid fa-code-branch mr-1"></i>SDLC & Agile</span>
+                    </div>
+                </div>
+
+                <!-- BUS402 -->
+                <div class="course-card ba glass-panel p-5 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">BUS402</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~35 Jam (3.0 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-sky-400 transition mb-2">Introduction to Project Management</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Kerangka kerja manajemen proyek, manajemen ruang lingkup (scope creep), alokasi sumber daya, dan mitigasi risiko IT.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: IT BA</span>
+                        <span class="text-sky-400 font-medium"><i class="fa-solid fa-tasks mr-1"></i>Project Governance</span>
+                    </div>
+                </div>
+
+                <!-- BUS204 -->
+                <div class="course-card bi glass-panel p-5 rounded-2xl border border-slate-800 hover:border-indigo-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-400 font-mono text-xs font-bold border border-indigo-500/20">BUS204</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~53 Jam (4.0 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-indigo-400 transition mb-2">Business Statistics</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Teori probabilitas, distribusi statistik, pengujian hipotesis, dan analisis regresi linier/berganda untuk keputusan data.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: BI Specialist</span>
+                        <span class="text-indigo-400 font-medium"><i class="fa-solid fa-calculator mr-1"></i>Quantitative Methods</span>
+                    </div>
+                </div>
+
+                <!-- BUS250 -->
+                <div class="course-card bi glass-panel p-5 rounded-2xl border border-slate-800 hover:border-indigo-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-400 font-mono text-xs font-bold border border-indigo-500/20">BUS250</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~30 Jam (3.0 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-indigo-400 transition mb-2">Intro to Business Intelligence & Analytics</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Konsep dasar BI enterprise, analitik deskriptif & prediktif, fondasi data mining, dan arsitektur data bisnis.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: BI Specialist</span>
+                        <span class="text-indigo-400 font-medium"><i class="fa-solid fa-database mr-1"></i>BI Architecture</span>
+                    </div>
+                </div>
+
+                <!-- BUS610 -->
+                <div class="course-card bi glass-panel p-5 rounded-2xl border border-slate-800 hover:border-indigo-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-400 font-mono text-xs font-bold border border-indigo-500/20">BUS610 / MBA610</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~40 Jam (4.0 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-indigo-400 transition mb-2">Advanced BI and Analytics</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Data Warehousing, skema pemodelan dimensi (Star/Snowflake), text mining, dan visualisasi eksekutif tingkat tinggi.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: BI Specialist</span>
+                        <span class="text-indigo-400 font-medium"><i class="fa-solid fa-cubes mr-1"></i>Data Warehousing</span>
+                    </div>
+                </div>
+
+                <!-- CS403 Shared -->
+                <div class="course-card ba bi glass-panel p-5 rounded-2xl border border-emerald-500/30 hover:border-emerald-500 transition group bg-emerald-950/10">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold border border-emerald-500/30">CS403 ★ CORE SHARED</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~42 Jam (4.2 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-emerald-400 transition mb-2">Intro to Modern Database Systems</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Pemodelan ERD, normalisasi data (1NF-3NF), query SQL tingkat lanjut (JOINs, Window Functions, Agregasi, CTE).</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-emerald-400 font-semibold">Fondasi Utama BA & BI</span>
+                        <span class="text-emerald-400 font-medium"><i class="fa-solid fa-server mr-1"></i>SQL Mastery</span>
+                    </div>
+                </div>
+
+                <!-- CS105 Python -->
+                <div class="course-card bi glass-panel p-5 rounded-2xl border border-slate-800 hover:border-indigo-500/50 transition group">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-400 font-mono text-xs font-bold border border-indigo-500/20">CS105 / CS250</span>
+                        <span class="text-xs text-slate-400"><i class="fa-regular fa-clock mr-1"></i>~40 Jam (4.1 CEU)</span>
+                    </div>
+                    <h4 class="text-lg font-bold text-white group-hover:text-indigo-400 transition mb-2">Python for Data Science</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-4">Dasar pemrograman Python, pemrosesan array NumPy, manipulasi DataFrame Pandas, dan plotting Matplotlib/Seaborn.</p>
+                    <div class="pt-3 border-t border-slate-800/80 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 font-medium">Domain: BI Specialist</span>
+                        <span class="text-indigo-400 font-medium"><i class="fa-brands fa-python mr-1"></i>Data Scripting</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Hybrid Roles Integration -->
+        <section class="glass-panel p-6 md:p-8 rounded-3xl border border-slate-800 space-y-6">
+            <div>
+                <span class="text-xs font-bold text-purple-400 uppercase tracking-widest">Bagian 3</span>
+                <h3 class="text-2xl md:text-3xl font-extrabold text-white">Integrasi Peran Hybrid (BI + BA)</h3>
+                <p class="text-slate-400 text-sm">Mengapa profesional hybrid sangat diminati oleh industri modern</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <!-- Infographic Visual Diagram -->
+                <div class="lg:col-span-5 flex flex-col items-center justify-center p-6 bg-slate-900/80 rounded-2xl border border-slate-800 relative">
+                    <div class="w-full max-w-sm space-y-3">
+                        <div class="p-4 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-300 text-center font-bold text-sm">
+                            <i class="fa-solid fa-users-gear mr-2"></i>Business Analysis (BA)
+                            <div class="text-[11px] font-normal text-slate-400 mt-1">Requirements, BPMN, BRD, User Stories, Stakeholders</div>
+                        </div>
+                        <div class="flex justify-center text-slate-500 text-lg"><i class="fa-solid fa-plus-minus"></i></div>
+                        <div class="p-4 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-center font-bold text-sm">
+                            <i class="fa-solid fa-chart-column mr-2"></i>Business Intelligence (BI)
+                            <div class="text-[11px] font-normal text-slate-400 mt-1">SQL, Data Warehousing, DAX, Visual Analytics, ETL</div>
+                        </div>
+                        <div class="flex justify-center text-amber-400 text-xl"><i class="fa-solid fa-circle-down animate-bounce"></i></div>
+                        <div class="p-4 rounded-xl bg-gradient-to-r from-sky-600 to-indigo-600 text-white text-center font-extrabold text-sm shadow-lg shadow-sky-500/20">
+                            <i class="fa-solid fa-wand-magic-sparkles mr-2"></i>HYBRID ANALYST SPECIALIST
+                            <div class="text-[11px] font-normal text-sky-100 mt-1">End-to-End Solutions: Problem Definition → SQL ETL → Interactive Dashboard → Executive Decision</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roles List -->
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                        <div class="text-sky-400 font-bold text-base mb-1 flex items-center">
+                            <i class="fa-solid fa-user-ninja mr-2"></i>BI Business Analyst (BI BA)
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">Merancang spesifikasi bisnis khusus untuk ekosistem sistem data enterprise dan pelaporan eksekutif.</p>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                        <div class="text-indigo-400 font-bold text-base mb-1 flex items-center">
+                            <i class="fa-solid fa-box-open mr-2"></i>Analytics Product Owner
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">Mengelola backlog produk data, menentukan prioritas fitur visualisasi, dan menyelaraskan data dengan roadmap bisnis.</p>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                        <div class="text-emerald-400 font-bold text-base mb-1 flex items-center">
+                            <i class="fa-solid fa-handshake mr-2"></i>Enterprise Data Consultant
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">Membantu organisasi merestrukturisasi alur proses bisnis sekaligus membangun infrastruktur analitik modern.</p>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                        <div class="text-purple-400 font-bold text-base mb-1 flex items-center">
+                            <i class="fa-solid fa-laptop-code mr-2"></i>Data-Driven IT BA
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">IT Business Analyst dengan kemampuan teknis tinggi dalam menulis query SQL kompleks dan memvalidasi solusi data.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Timeline & Learning Time Estimator Calculator -->
+        <section id="timeline" class="space-y-6">
+            <div>
+                <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Bagian 4</span>
+                <h3 class="text-2xl md:text-3xl font-extrabold text-white">Timeline Belajar & Pemetaan Standar (2026–2032)</h3>
+                <p class="text-slate-400 text-sm">Estimasi durasi dan penyelarasan kurikulum dengan BABOK v3 & BI Modern Horizon</p>
+            </div>
+
+            <!-- Interactive Study Hour Calculator -->
+            <div class="glass-panel p-6 rounded-2xl border border-slate-800 bg-slate-900/50">
+                <h4 class="text-base font-bold text-white mb-4 flex items-center">
+                    <i class="fa-solid fa-calculator text-sky-400 mr-2"></i>Kalkulator Estimasi Kelulusan Saylor
+                </h4>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 mb-2">Komitmen Belajar per Minggu:</label>
+                        <input type="range" id="hours-range" min="5" max="35" value="15" step="1" oninput="calculateStudyTime()" class="w-full accent-sky-500 bg-slate-800 rounded-lg h-2 cursor-pointer">
+                        <div class="flex justify-between text-xs text-slate-400 mt-2">
+                            <span>5 Jam/Mg (Santai)</span>
+                            <span id="range-val" class="text-sky-400 font-bold text-sm">15 Jam / Minggu</span>
+                            <span>35 Jam/Mg (Intensif)</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 text-center">
+                        <div class="text-xs text-slate-400">Estimasi Total Minggu</div>
+                        <div id="result-weeks" class="text-3xl font-black text-sky-400 my-1">18.7 Minggu</div>
+                        <div class="text-[11px] text-slate-500">Berdasarkan total ~280 jam kurikulum</div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-950 border border-slate-800 text-center">
+                        <div class="text-xs text-slate-400">Estimasi Total Bulan</div>
+                        <div id="result-months" class="text-3xl font-black text-indigo-400 my-1">4.3 Bulan</div>
+                        <div id="pace-category" class="text-[11px] text-emerald-400 font-semibold">Pola Standar (Profesional)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BABOK v3 Mapping Table -->
+            <div class="glass-panel rounded-2xl border border-slate-800 overflow-hidden">
+                <div class="p-4 bg-slate-900 border-b border-slate-800 font-bold text-sm text-white flex items-center">
+                    <i class="fa-solid fa-book-bookmark text-amber-400 mr-2"></i>Pemetaan Mata Kuliah Saylor terhadap BABOK Guide v3 (IIBA)
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs text-slate-300">
+                        <thead class="bg-slate-950 text-slate-400 font-semibold border-b border-slate-800">
+                            <tr>
+                                <th class="p-3.5">BABOK v3 Knowledge Area</th>
+                                <th class="p-3.5">Mata Kuliah Saylor Relevan</th>
+                                <th class="p-3.5">Penerapan Riil di Industri</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-800/60">
+                            <tr class="hover:bg-slate-900/40">
+                                <td class="p-3.5 font-semibold text-white">Business Analysis Planning & Monitoring</td>
+                                <td class="p-3.5 text-sky-400 font-mono">BUS402 (Project Management)</td>
+                                <td class="p-3.5">Merencanakan pendekatan analisis, tata kelola stakeholder, dan siklus kebutuhan.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-900/40">
+                                <td class="p-3.5 font-semibold text-white">Elicitation & Collaboration</td>
+                                <td class="p-3.5 text-sky-400 font-mono">BUS206 (Management Info Systems)</td>
+                                <td class="p-3.5">Menggali kebutuhan lewat wawancara, workshop, dan validasi persyaratan bisnis.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-900/40">
+                                <td class="p-3.5 font-semibold text-white">Requirements Life Cycle Management</td>
+                                <td class="p-3.5 text-sky-400 font-mono">CS302 (Software Engineering)</td>
+                                <td class="p-3.5">Traceability matrix, pemeliharaan backlog user story, dan kontrol perubahan.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-900/40">
+                                <td class="p-3.5 font-semibold text-white">Strategy Analysis</td>
+                                <td class="p-3.5 text-sky-400 font-mono">BUS303 (Strategic IT)</td>
+                                <td class="p-3.5">Mendefinisikan kondisi saat ini (As-Is) vs masa depan (To-Be) serta analisis risiko.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-900/40">
+                                <td class="p-3.5 font-semibold text-white">Requirements Analysis & Design Definition</td>
+                                <td class="p-3.5 text-sky-400 font-mono">CS403 & BUS250</td>
+                                <td class="p-3.5">Pemodelan data ERD, spesifikasi fungsional (FRS), dan arsitektur visual dashboard.</td>
+                            </tr>
+                            <tr class="hover:bg-slate-900/40">
+                                <td class="p-3.5 font-semibold text-white">Solution Evaluation</td>
+                                <td class="p-3.5 text-sky-400 font-mono">BUS610 (Advanced BI)</td>
+                                <td class="p-3.5">Mengukur kinerja solusi yang telah diimplementasikan lewat metrik KPI dan data.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Linux Mint XFCE Environment & Youtube Roadmap -->
+        <section id="environment" class="glass-panel p-6 md:p-8 rounded-3xl border border-slate-800 space-y-6">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                    <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Bagian 5</span>
+                    <h3 class="text-2xl md:text-3xl font-extrabold text-white">Linux Mint XFCE Workstation Setup</h3>
+                    <p class="text-slate-400 text-sm">Lingkungan kerja analitik data efisien & rekomendasi kanal YouTube</p>
+                </div>
+                <div class="flex items-center space-x-2 text-xs text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-xl border border-emerald-500/20">
+                    <i class="fa-brands fa-linux text-base"></i>
+                    <span>Optimized for Linux Mint 21.x / XFCE</span>
+                </div>
+            </div>
+
+            <!-- YouTube Learning Channels Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                    <div class="text-red-400 font-bold text-sm mb-2 flex items-center">
+                        <i class="fa-brands fa-youtube mr-2 text-lg"></i>SQL & Database
+                    </div>
+                    <div class="text-xs text-white font-semibold">freeCodeCamp, Alex The Analyst</div>
+                    <p class="text-[11px] text-slate-400 mt-1">Query JOIN, CTE, Window Functions, DBeaver, PostgreSQL.</p>
+                </div>
+
+                <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                    <div class="text-red-400 font-bold text-sm mb-2 flex items-center">
+                        <i class="fa-brands fa-youtube mr-2 text-lg"></i>Data Visualization
+                    </div>
+                    <div class="text-xs text-white font-semibold">Luke Barousse, Chandoo, Stratvert</div>
+                    <p class="text-[11px] text-slate-400 mt-1">Pemodelan DAX, Power BI Web, Tableau, Metabase UI/UX.</p>
+                </div>
+
+                <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                    <div class="text-red-400 font-bold text-sm mb-2 flex items-center">
+                        <i class="fa-brands fa-youtube mr-2 text-lg"></i>Python Data Analysis
+                    </div>
+                    <div class="text-xs text-white font-semibold">Corey Schafer, Keith Galli</div>
+                    <p class="text-[11px] text-slate-400 mt-1">Pandas Data Wrangling, Scripting CSV/JSON, Seaborn.</p>
+                </div>
+
+                <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                    <div class="text-red-400 font-bold text-sm mb-2 flex items-center">
+                        <i class="fa-brands fa-youtube mr-2 text-lg"></i>Business Analysis & Agile
+                    </div>
+                    <div class="text-xs text-white font-semibold">BA Blocks, Bridging the Gap</div>
+                    <p class="text-[11px] text-slate-400 mt-1">Penyusunan BRD, UML Diagramming, JIRA, User Stories.</p>
+                </div>
+            </div>
+
+            <!-- Copyable Linux Terminal Commands -->
+            <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-3 font-mono text-xs">
+                <div class="flex justify-between items-center text-slate-400">
+                    <span class="text-emerald-400 font-bold"><i class="fa-solid fa-terminal mr-2"></i>Setup Quick Commands (Linux Mint Terminal)</span>
+                    <button onclick="copyCommands()" class="text-xs bg-slate-800 hover:bg-slate-700 px-3 py-1 rounded-md text-slate-300 transition">
+                        <i class="fa-regular fa-copy mr-1"></i>Salin Semua Code
+                    </button>
+                </div>
+                <pre id="cmd-block" class="text-slate-300 overflow-x-auto p-3 bg-slate-900 rounded-xl leading-relaxed">
+<span class="text-slate-500"># 1. Update Repository System</span>
+sudo apt update && sudo apt upgrade -y
+
+<span class="text-slate-500"># 2. Install Native PostgreSQL & MySQL Server</span>
+sudo apt install -y postgresql postgresql-contrib mysql-server
+
+<span class="text-slate-500"># 3. Install Python 3, Pip & Virtualenv</span>
+sudo apt install -y python3 python3-pip python3-venv
+
+<span class="text-slate-500"># 4. Install Docker Engine untuk Metabase / Superset</span>
+sudo apt install -y docker.io
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+
+<span class="text-slate-500"># 5. Jalankan Metabase BI Server di Docker (Port 3000)</span>
+docker run -d -p 3000:3000 --name metabase metabase/metabase</pre>
+            </div>
+        </section>
+
+        <!-- Section 6 & 8: Learning Techniques & 80/20 Pareto Principle -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- Section 6: Cognitive Learning Techniques -->
+            <div class="glass-panel p-6 rounded-3xl border border-slate-800 space-y-4">
+                <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Bagian 6</span>
+                <h3 class="text-xl md:text-2xl font-extrabold text-white">Teknik Belajar Akselerasi Kognitif</h3>
+                
+                <div class="space-y-3">
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                        <div class="font-bold text-sm text-sky-400"><i class="fa-solid fa-brain mr-2"></i>1. Teknik Feynman</div>
+                        <p class="text-xs text-slate-400 mt-1">Jelaskan konsep rumit (misal: *Star Schema* atau *Requirements Traceability*) dengan bahasa sederhana seolah mengajari pemula. Jika tersangkut, buka kembali materi Saylor.</p>
+                    </div>
+
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                        <div class="font-bold text-sm text-indigo-400"><i class="fa-solid fa-layer-group mr-2"></i>2. Active Recall & Spaced Repetition (Anki)</div>
+                        <p class="text-xs text-slate-400 mt-1">Gunakan flashcard Anki untuk menguji sintaks SQL kompleks (`DENSE_RANK()`, `LEAD/LAG`) dan terminologi BABOK v3 secara berkala untuk ingatan jangka panjang.</p>
+                    </div>
+
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                        <div class="font-bold text-sm text-emerald-400"><i class="fa-solid fa-hammer mr-2"></i>3. Project-Driven Learning</div>
+                        <p class="text-xs text-slate-400 mt-1">Hindari *tutorial hell*. Segera konversikan modul teori Saylor menjadi skrip SQL dan dokumen BRD riil menggunakan data Kaggle di Linux Mint.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 8: 80/20 Pareto Principle -->
+            <div class="glass-panel p-6 rounded-3xl border border-slate-800 space-y-4">
+                <span class="text-xs font-bold text-rose-400 uppercase tracking-widest">Bagian 8</span>
+                <h3 class="text-xl md:text-2xl font-extrabold text-white">Prinsip Pareto 80/20 dalam Eksekusi</h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 h-calc">
+                    <div class="p-4 rounded-xl bg-rose-500/10 border border-rose-500/20 flex flex-col justify-between">
+                        <div>
+                            <div class="text-rose-400 font-extrabold text-lg">20% Teori Kunci</div>
+                            <ul class="text-xs text-slate-300 mt-2 space-y-1.5 list-disc list-inside">
+                                <li>Identifikasi Masalah & Kerangka BABOK</li>
+                                <li>Prinsip Relasional & Normalisasi Data</li>
+                                <li>Pemodelan Dimensi (Tabel Facts & Dimension)</li>
+                            </ul>
+                        </div>
+                        <div class="text-[11px] text-rose-300 font-semibold mt-4">Pondasi Konseptual Utama</div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex flex-col justify-between">
+                        <div>
+                            <div class="text-emerald-400 font-extrabold text-lg">80% Praktik Langsung</div>
+                            <ul class="text-xs text-slate-300 mt-2 space-y-1.5 list-disc list-inside">
+                                <li>Penulisan Query SQL Mandiri (JOINs, Window)</li>
+                                <li>Penyusunan BRD/FRD & User Stories</li>
+                                <li>Pembuatan Interactive Dashboard End-to-End</li>
+                                <li>Publikasi Portofolio Rutin ke GitHub</li>
+                            </ul>
+                        </div>
+                        <div class="text-[11px] text-emerald-300 font-semibold mt-4">Dampak Besar Karir Riil</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: 10 Portfolio Projects Showcase -->
+        <section id="projects" class="space-y-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                <div>
+                    <span class="text-xs font-bold text-sky-400 uppercase tracking-widest">Bagian 7</span>
+                    <h3 class="text-2xl md:text-3xl font-extrabold text-white">10 Proyek Hybrid BI & BA Praktis</h3>
+                    <p class="text-slate-400 text-sm">Portofolio praktis gabungan dokumen analisis bisnis dan luaran teknis BI</p>
+                </div>
+                
+                <!-- Project Domain Filter -->
+                <div class="flex bg-slate-900 p-1 rounded-xl border border-slate-800 self-start md:self-auto">
+                    <button onclick="filterProjects('all')" id="pfilter-all" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-500 text-white">Semua Proyek</button>
+                    <button onclick="filterProjects('ecom')" id="pfilter-ecom" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white">E-Commerce & Retail</button>
+                    <button onclick="filterProjects('fin')" id="pfilter-fin" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white">Finance & Banking</button>
+                    <button onclick="filterProjects('ops')" id="pfilter-ops" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white">Operations & HR</button>
+                </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card ecom glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #01</span>
+                        <span class="text-[11px] text-slate-400">Domain: E-Commerce</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">E-Commerce Customer Churn Analysis</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Dokumen Spesifikasi Kebutuhan Bisnis (BRD), Pemetaan Customer Journey.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Pipeline SQL ekstraksi retensi, Dashboard Interaktif Churn Prediction & Cohort Analysis.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Memungkinkan tim pemasaran mengidentifikasi 15% segmen pelanggan berisiko tinggi sebelum churn.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card ops glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #02</span>
+                        <span class="text-[11px] text-slate-400">Domain: Healthcare</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Healthcare Patient Wait-Time Optimization</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Dokumentasi Alur Proses Bisnis Saat Ini (As-Is) dan Usulan (To-Be) BPMN.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Dashboard Pemantauan Bottleneck Antrean Rumah Sakit real-time (Metabase/Power BI).
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Mengurangi rata-rata waktu tunggu pasien di unit rawat jalan sebesar 25%.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card ops glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #03</span>
+                        <span class="text-[11px] text-slate-400">Domain: Supply Chain</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Supply Chain Inventory & Procurement</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Dokumen Kebutuhan Fungsional (FRD) integrasi vendor, Matriks Traceability.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Pemodelan Data Skema Bintang (Star Schema) Pergudangan, Dashboard Turnover Stok.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Mengoptimalkan biaya penyimpanan gudang dan mencegah out-of-stock hingga 18%.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card fin glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #04</span>
+                        <span class="text-[11px] text-slate-400">Domain: Financial Services</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Financial Fraud Detection System</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Penyusunan Use Case Diagram, Logika Aturan Bisnis Deteksi Anomali.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Query SQL Kompleks Deteksi Transaksi Mencurigakan, Dashboard Alert Risiko Keuangan.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Mempercepat waktu identifikasi potensi fraud transaksi keuangan dalam durasi &lt; 2 jam.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card ecom glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #05</span>
+                        <span class="text-[11px] text-slate-400">Domain: SaaS Product</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">SaaS Subscription Revenue & MRR Analytics</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            User Stories & Kriteria Penerimaan (Acceptance Criteria) Sistem Billing SaaS.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Dashboard MRR (Monthly Recurring Revenue), Churn Rate, & Customer Lifetime Value (LTV).
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Memberikan transparansi arus kas berulang bagi eksekutif untuk keputusan ekspansi.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card ecom glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #06</span>
+                        <span class="text-[11px] text-slate-400">Domain: Retail Omnichannel</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Retail Omnichannel Sales Integration</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Analisis Kesenjangan (Gap Analysis) Integrasi POS Toko Fisik dan Platform E-Commerce.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Data Warehouse PostgreSQL Gabungan, Dashboard Performa Penjualan Multi-Kanal.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Mengonsolidasikan laporan penjualan dari 5 saluran berbeda menjadi satu tampilan tunggal.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card ops glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #07</span>
+                        <span class="text-[11px] text-slate-400">Domain: HR Analytics</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">HR Talent Retention & Performance Tracking</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Dokumen Persyaratan Bisnis Manajemen Performa Karyawan, Skenario Pengujian.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Dashboard Analisis Atrisi Karyawan, Metrik Kinerja Karyawan berdasarkan Departemen.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Membantu departemen HR menurunkan tingkat keluar-masuk (turnover) staf teknis.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card fin glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #08</span>
+                        <span class="text-[11px] text-slate-400">Domain: Banking</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Banking Credit Risk & Loan Approval</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Spesifikasi Aturan Penilaian Kredit (Credit Scoring Rules), Dokumen Kepatuhan.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Model Skoring Risiko Kredit berbasis SQL/Python, Dashboard Portofolio NPL.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Mengurangi proporsi kredit macet dengan pengetatan kriteria kelayakan berbasis data.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card ops glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #09</span>
+                        <span class="text-[11px] text-slate-400">Domain: Logistics IoT</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Logistics Fleet Performance & Fuel Efficiency</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Peta Kebutuhan Pengguna (User Persona), Analisis Kelayakan Sistem IoT Armada.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Dashboard Visualisasi Rute Logistik, Konsumsi Bahan Bakar, & Efisiensi Waktu Pengiriman.
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Menghemat konsumsi bahan bakar operasional armada pengiriman hingga 12%.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card ecom glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <div class="flex justify-between items-start">
+                        <span class="px-2.5 py-0.5 rounded-full bg-sky-500/10 text-sky-400 font-mono text-xs font-bold border border-sky-500/20">Proyek #10</span>
+                        <span class="text-[11px] text-slate-400">Domain: Digital Marketing</span>
+                    </div>
+                    <h4 class="text-base font-bold text-white">Marketing Campaign ROI & Attribution System</h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-sky-400 block mb-0.5"><i class="fa-solid fa-file-contract mr-1"></i>Luaran Business Analysis (BA):</span>
+                            Dokumen Strategi Kampanye Pemasaran, Spesifikasi Integrasi API Media Sosial.
+                        </div>
+                        <div class="p-2 rounded-lg bg-slate-900 text-slate-300">
+                            <span class="font-bold text-indigo-400 block mb-0.5"><i class="fa-solid fa-chart-column mr-1"></i>Luaran Business Intelligence (BI):</span>
+                            Dashboard Attribution Modeling (First-Touch, Last-Touch, Multi-Touch Attribution).
+                        </div>
+                        <div class="p-2 rounded-lg bg-emerald-950/30 border border-emerald-500/20 text-emerald-300">
+                            <span class="font-bold block mb-0.5"><i class="fa-solid fa-trophy mr-1"></i>Dampak Bisnis (Business Impact):</span>
+                            Mengoptimalkan alokasi anggaran iklan digital ke saluran dengan ROI tertinggi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 9: LinkedIn MIT/Harvard Style Optimization Guide -->
+        <section id="linkedin" class="glass-panel p-6 md:p-8 rounded-3xl border border-slate-800 space-y-6">
+            <div>
+                <span class="text-xs font-bold text-sky-400 uppercase tracking-widest">Bagian 9</span>
+                <h3 class="text-2xl md:text-3xl font-extrabold text-white">Profil LinkedIn Standar MIT & Harvard</h3>
+                <p class="text-slate-400 text-sm">Formulasi headline, deskripsi About, dan formula XYZ untuk menarik HRD</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- Headline & Formula Template -->
+                <div class="space-y-4">
+                    <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+                        <div class="text-xs font-bold text-sky-400 uppercase mb-2">1. Formulasi Headline LinkedIn</div>
+                        <div class="p-3 bg-slate-950 rounded-lg text-xs font-mono text-slate-200 border border-slate-800">
+                            IT Business Analyst & BI Specialist | SQL, Power BI, Python, Agile/BPMN | Transforming Complex Data into Scalable IT Solutions & Executive Dashboards
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+                        <div class="text-xs font-bold text-indigo-400 uppercase mb-2">2. Harvard/Google XYZ Formula Pengalaman</div>
+                        <p class="text-xs text-slate-400 mb-2">Format: <span class="text-white font-semibold">"Mencapai [X], diukur dengan [Y], dengan melakukan [Z]"</span></p>
+                        <ul class="text-xs text-slate-300 space-y-2">
+                            <li class="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
+                                <span class="text-sky-400 font-semibold">[Contoh BA]:</span> Developed 15+ comprehensive BRDs & User Stories, reducing scope creep by 30% and accelerating project delivery by 3 weeks through clear Agile backlog grooming.
+                            </li>
+                            <li class="p-2.5 bg-slate-950 rounded-lg border border-slate-800">
+                                <span class="text-indigo-400 font-semibold">[Contoh BI]:</span> Engineered an automated SQL-based financial reporting data pipeline & Power BI dashboard, eliminating 20 hours of manual monthly data aggregation and increasing executive reporting speed by 40%.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Copyable About Section Template -->
+                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-3 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xs font-bold text-emerald-400 uppercase">3. Ringkasan "About" LinkedIn</span>
+                            <button onclick="copyAboutText()" class="text-[11px] bg-slate-800 hover:bg-slate-700 px-2.5 py-1 rounded text-slate-300 transition">
+                                <i class="fa-regular fa-copy mr-1"></i>Salin Text About
+                            </button>
+                        </div>
+                        <div id="about-text-block" class="p-3 bg-slate-950 rounded-xl text-xs text-slate-300 leading-relaxed font-sans border border-slate-800 max-h-64 overflow-y-auto">
+IT Business Analyst and Business Intelligence Specialist with a strong foundation in computer science and business administration from Saylor University. Specialized in bridging the gap between business stakeholders and technical teams through rigorous requirements engineering (BABOK standards) and advanced data analytics.<br><br>
+Proficient in architecting relational databases, crafting complex SQL queries, and designing executive-level dashboards that drive data-informed decision-making. Proven track record in optimizing business processes, reducing operational inefficiencies, and delivering end-to-end analytics solutions.
+                        </div>
+                    </div>
+                    <div class="text-[11px] text-slate-500 italic mt-2">
+                        *Catatan: Unggah PDF dokumen BRD contoh (disanitasi) dan link dashboard publik pada bagian "Featured" LinkedIn.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 10: Domestic & International Job Platforms -->
+        <section class="space-y-6">
+            <div>
+                <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">Bagian 10</span>
+                <h3 class="text-2xl md:text-3xl font-extrabold text-white">10 Platform Pencarian Kerja Terbaik</h3>
+                <p class="text-slate-400 text-sm">Target pasar pekerjaan IT BA dan BI Specialist di Indonesia & Global</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Dalam Negeri -->
+                <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <h4 class="text-base font-bold text-sky-400 flex items-center">
+                        <i class="fa-solid fa-flag mr-2"></i>5 Platform Dalam Negeri (Indonesia)
+                    </h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">1. JobStreet / JobsDB</span> <p class="text-[11px] text-slate-400">Korporat perbankan, manufaktur, BUMN.</p></div>
+                            <span class="text-sky-400 text-xs">Lokal Big Enterprise</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">2. LinkedIn Indonesia</span> <p class="text-[11px] text-slate-400">Multinasional, tech unicorn & startup.</p></div>
+                            <span class="text-sky-400 text-xs">Direct Recruiter</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">3. Glints / Deel</span> <p class="text-[11px] text-slate-400">Perusahaan teknologi & remote SEA.</p></div>
+                            <span class="text-sky-400 text-xs">Tech & Regional</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">4. Kalibrr</span> <p class="text-[11px] text-slate-400">Konglomerasi besar & jasa keuangan.</p></div>
+                            <span class="text-sky-400 text-xs">Assessment Based</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">5. Tech in Asia Jobs</span> <p class="text-[11px] text-slate-400">Ekosistem startup & produk digital.</p></div>
+                            <span class="text-sky-400 text-xs">Startup Ecosystem</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luar Negeri -->
+                <div class="glass-panel p-5 rounded-2xl border border-slate-800 space-y-3">
+                    <h4 class="text-base font-bold text-indigo-400 flex items-center">
+                        <i class="fa-solid fa-globe mr-2"></i>5 Platform Luar Negeri (Global)
+                    </h4>
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">1. LinkedIn Global</span> <p class="text-[11px] text-slate-400">Hiring manager global (US, EU, SG).</p></div>
+                            <span class="text-indigo-400 text-xs">Remote / Relocation</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">2. Indeed Global</span> <p class="text-[11px] text-slate-400">Aggregator lowongan kerja dunia terbesar.</p></div>
+                            <span class="text-indigo-400 text-xs">ATS-Friendly Resume</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">3. Wellfound (AngelList)</span> <p class="text-[11px] text-slate-400">Startup global tech tinggi & distributed.</p></div>
+                            <span class="text-indigo-400 text-xs">Global Startups</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">4. RemoteOK / FlexJobs</span> <p class="text-[11px] text-slate-400">Pekerjaan remote penuh kompensasi USD/EUR.</p></div>
+                            <span class="text-indigo-400 text-xs">Full Remote Tech</span>
+                        </div>
+                        <div class="p-2.5 bg-slate-900 rounded-lg flex justify-between items-center">
+                            <div><span class="font-bold text-white">5. Glassdoor</span> <p class="text-[11px] text-slate-400">Riset standar gaji & ulasan budaya kerja.</p></div>
+                            <span class="text-indigo-400 text-xs">Salary Benchmarking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 11: Professional Certifications Roadmap -->
+        <section class="glass-panel p-6 md:p-8 rounded-3xl border border-slate-800 space-y-6">
+            <div>
+                <span class="text-xs font-bold text-purple-400 uppercase tracking-widest">Bagian 11</span>
+                <h3 class="text-2xl md:text-3xl font-extrabold text-white">Roadmap Sertifikasi Profesional (2026 Horizon)</h3>
+                <p class="text-slate-400 text-sm">Validasi kredensial formal untuk kualifikasi IT BA & BI Specialist</p>
+            </div>
+
+            <!-- Certifications Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="px-2 py-0.5 rounded bg-sky-500/10 text-sky-400 font-bold text-[10px]">BA Pemula</span>
+                        <span class="text-xs text-slate-400">IIBA</span>
+                    </div>
+                    <h4 class="font-bold text-white text-sm">ECBA (Entry Certificate in Business Analysis)</h4>
+                    <p class="text-xs text-slate-400">Tanpa syarat jam kerja. Ujian ~$150-$300. Memvalidasi teori dasar kerangka kerja BABOK v3.</p>
+                    <div class="pt-2 text-[11px] text-sky-400 font-semibold">Target: Bulan 1 – 6 Belajar</div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-400 font-bold text-[10px]">BI Teknis</span>
+                        <span class="text-xs text-slate-400">Microsoft</span>
+                    </div>
+                    <h4 class="font-bold text-white text-sm">PL-300 (Power BI Data Analyst)</h4>
+                    <p class="text-xs text-slate-400">Pengalaman Power BI & DAX. Biaya ~$165. Sertifikasi visualisasi data paling dicari global.</p>
+                    <div class="pt-2 text-[11px] text-indigo-400 font-semibold">Target: Bulan 1 – 6 Belajar</div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 font-bold text-[10px]">Hybrid Cert</span>
+                        <span class="text-xs text-slate-400">IIBA</span>
+                    </div>
+                    <h4 class="font-bold text-white text-sm">IIBA-CBDA (Business Data Analytics)</h4>
+                    <p class="text-xs text-slate-400">Biaya ~$250-$400. Sangat ideal untuk peran hybrid; memvalidasi kepemimpinan proyek analitik data.</p>
+                    <div class="pt-2 text-[11px] text-purple-400 font-semibold">Target: Tahun 1 – 3 Karir</div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 font-bold text-[10px]">BA Senior</span>
+                        <span class="text-xs text-slate-400">IIBA</span>
+                    </div>
+                    <h4 class="font-bold text-white text-sm">CCBA / CBAP (Certified Business Analyst)</h4>
+                    <p class="text-xs text-slate-400">Syarat 3.750 - 7.500 jam kerja BA. Standar emas global tertinggi untuk praktisi BA Senior.</p>
+                    <div class="pt-2 text-[11px] text-amber-400 font-semibold">Target: Tahun 3 – 5+ Karir</div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-bold text-[10px]">Projek & BA</span>
+                        <span class="text-xs text-slate-400">PMI</span>
+                    </div>
+                    <h4 class="font-bold text-white text-sm">PMI-PBA (Professional in Business Analysis)</h4>
+                    <p class="text-xs text-slate-400">Kombinasi jam kerja manajemen proyek dan BA. Sangat dihargai di lingkungan IT enterprise.</p>
+                    <div class="pt-2 text-[11px] text-emerald-400 font-semibold">Target: Tahun 3 – 5+ Karir</div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+                    <div class="flex justify-between items-center">
+                        <span class="px-2 py-0.5 rounded bg-rose-500/10 text-rose-400 font-bold text-[10px]">BI Enterprise</span>
+                        <span class="text-xs text-slate-400">Tableau / Salesforce</span>
+                    </div>
+                    <h4 class="font-bold text-white text-sm">Tableau Certified Data Analyst</h4>
+                    <p class="text-xs text-slate-400">Pengalaman praktis Tableau 6+ bulan. Biaya ~$250. Validasi visualisasi data enterprise.</p>
+                    <div class="pt-2 text-[11px] text-rose-400 font-semibold">Target: Tahun 1 – 2 Karir</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 px-4 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto space-y-2">
+            <p>Panduan Interaktif IT Business Analyst & BI Specialist • Kurikulum Saylor University & Linux Mint</p>
+            <p class="text-[11px] text-slate-600">Disusun berdasarkan standar BABOK v3 & Horison Industri BI Modern 2026–2032.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interactions & Calculations -->
+    <script>
+        // Theme Toggle Functionality
+        function toggleTheme() {
+            const html = document.documentElement;
+            const icon = document.getElementById('theme-icon');
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                html.classList.add('light');
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            } else {
+                html.classList.remove('light');
+                html.classList.add('dark');
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            }
+        }
+
+        // Track Filter Functionality
+        function switchTrack(track) {
+            const cards = document.querySelectorAll('.course-card');
+            const btns = ['btn-track-all', 'btn-track-ba', 'btn-track-bi'];
+            
+            btns.forEach(b => {
+                const el = document.getElementById(b);
+                el.classList.remove('bg-sky-500', 'text-white');
+                el.classList.add('text-slate-400');
+            });
+
+            document.getElementById('btn-track-' + track).classList.add('bg-sky-500', 'text-white');
+            document.getElementById('btn-track-' + track).classList.remove('text-slate-400');
+
+            cards.forEach(card => {
+                if (track === 'all') {
+                    card.style.display = 'block';
+                } else if (track === 'ba' && card.classList.contains('ba')) {
+                    card.style.display = 'block';
+                } else if (track === 'bi' && card.classList.contains('bi')) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Project Filter Functionality
+        function filterProjects(cat) {
+            const cards = document.querySelectorAll('.project-card');
+            const btns = ['pfilter-all', 'pfilter-ecom', 'pfilter-fin', 'pfilter-ops'];
+
+            btns.forEach(b => {
+                const el = document.getElementById(b);
+                el.classList.remove('bg-sky-500', 'text-white');
+                el.classList.add('text-slate-400');
+            });
+
+            document.getElementById('pfilter-' + cat).classList.add('bg-sky-500', 'text-white');
+            document.getElementById('pfilter-' + cat).classList.remove('text-slate-400');
+
+            cards.forEach(card => {
+                if (cat === 'all' || card.classList.contains(cat)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Calculator Functionality
+        function calculateStudyTime() {
+            const hoursPerWeek = parseInt(document.getElementById('hours-range').value);
+            document.getElementById('range-val').innerText = hoursPerWeek + ' Jam / Minggu';
+            
+            const totalHours = 280; // Total average hours
+            const weeks = (totalHours / hoursPerWeek).toFixed(1);
+            const months = (weeks / 4.33).toFixed(1);
+
+            document.getElementById('result-weeks').innerText = weeks + ' Minggu';
+            document.getElementById('result-months').innerText = months + ' Bulan';
+
+            const paceEl = document.getElementById('pace-category');
+            if (hoursPerWeek >= 25) {
+                paceEl.innerText = 'Pola Akselerasi (Intensif Penuh)';
+                paceEl.className = 'text-[11px] text-sky-400 font-semibold';
+            } else if (hoursPerWeek >= 12) {
+                paceEl.innerText = 'Pola Standar (Profesional Berbekal Pekerjaan)';
+                paceEl.className = 'text-[11px] text-emerald-400 font-semibold';
+            } else {
+                paceEl.innerText = 'Pola Santai (Part-time / Sampingan)';
+                paceEl.className = 'text-[11px] text-amber-400 font-semibold';
+            }
+        }
+
+        // Copy to Clipboard Helpers
+        function copyTextToClipboard(textToCopy) {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+        }
+
+        function copyCommands() {
+            const cmdText = document.getElementById('cmd-block').innerText;
+            copyTextToClipboard(cmdText);
+            showToast('Semua perintah Linux berhasil disalin!');
+        }
+
+        function copyAboutText() {
+            const aboutText = document.getElementById('about-text-block').innerText;
+            copyTextToClipboard(aboutText);
+            showToast('Text About LinkedIn berhasil disalin!');
+        }
+
+        function showToast(msg) {
+            const toast = document.createElement('div');
+            toast.className = 'fixed bottom-5 right-5 z-50 bg-sky-500 text-white px-4 py-2.5 rounded-xl shadow-lg text-xs font-semibold flex items-center space-x-2 animate-bounce';
+            toast.innerHTML = `<i class="fa-solid fa-circle-check"></i> <span>${msg}</span>`;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // Initialize default view
+        window.onload = function() {
+            calculateStudyTime();
+        }
+    </script>
+</body>
+</html>
